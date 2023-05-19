@@ -76,9 +76,7 @@ return (
         <Flex width={value?'100%':'50%'} backgroundColor={'#ED806E'} height={value?'50%':''}  justifyContent={'center'} alignItems={'center'}>
             <ClassComponent message={"This is from Class Component."}/>
         </Flex>
-        <Flex  width={value?'100%':'50%'} backgroundColor={'#96BEA4'} height={value?'50%':''} justifyContent={'center'} alignItems={'center'}>
-            <FunctionComponent message={"This is from Functional Component."}/>
-        </Flex>
+       
 
     </Flex>
   )

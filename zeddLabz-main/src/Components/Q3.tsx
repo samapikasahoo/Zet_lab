@@ -44,8 +44,8 @@ const Q3:React.FC<Props> = ({ value }) =>
         <Flex height={'100vh'}  flexDir={value?'column':'row'} position='relative' color={'white'}  fontWeight={'700'} fontSize={value?'1rem':'2rem'}>
             <Flex className='heading'>Question 3</Flex>
             <Flex backgroundColor={'#B97B91'} flexDir={'column'} width={value?'calc(100% - 60px)':'calc(50% - 100px)'} height={value?'45%':""}  padding={value?'0px 30px':'0px 50px'} justifyContent={'center'} textAlign={'center'} alignItems={'center'}>
-              <div>In this task I have used useState, useEffect, useCallback,useContext which are major hooks of react.</div>
-              <div style={{marginTop:'30px'}}>Context Value into component 1: {context_data}</div>
+            
+             
             </Flex>
             <Flex width={value?'100%':'50%'} backgroundColor={'#637C6C'} height={value?'55%':""}  flexDir={'column'} justifyContent={'center'} textAlign={'center'} alignItems={'center'}>
                 <div style={{marginBottom:'30px'}}>Count: {Q3_state}</div>
